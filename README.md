@@ -1,6 +1,23 @@
-# OpenFinData
+<div align="center">
 
-大语言模型开源金融评测数据集
+  
+  # OpenFinData
+
+  大语言模型开源金融评测数据集
+
+  <a href="#-项目介绍">项目介绍 </a> •
+  <a href="#-核心优势">核心优势 </a> •
+  <a href="#-数据集内容">数据集内容 </a> •
+  <a href="#-使用指南">使用指南 </a> •
+  <a href="#-致谢"> 致谢 </a> •
+
+  <br />
+  <br />
+
+  简体中文 | [English](README_EN.md)
+
+</div>
+
 
 ## 项目介绍
 
@@ -43,12 +60,16 @@ OpenFinData数据集由以下六个模块构成，每个模块包含多个任务
 
 ## 使用指南
 
-1. **数据下载**: 请点击[]()下载数据集。
+1. **数据下载**: 请点击[数据集链接](https://github.com/open-compass/OpenFinData/releases/download/release/openfindata_release.zip)下载数据集。
 2. **模型评估**: 我们提供基于[OpenCompass](https://github.com/open-compass/opencompass)的模型评估方案，更多细节将会更新在OpenCompass的文档中。
 
 ## 致谢
 
 我们感谢所有参与OpenFinData项目的贡献者，包括但不限于数据收集、清洗、标注和评测的团队成员。特别感谢东方财富和上海人工智能实验室的支持。
+
+## 备注
+
+本数据集仅供学术研究使用，请勿将此数据集用于任何的模型训练。
 
 ## 联系方式
 
