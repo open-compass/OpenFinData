@@ -61,7 +61,13 @@ OpenFinData数据集由以下六个模块构成，每个模块包含多个任务
 ## 使用指南
 
 1. **数据下载**: 请点击[数据集链接](https://github.com/open-compass/OpenFinData/releases/download/release/openfindata_release.zip)下载数据集。
-2. **模型评估**: 我们提供基于[OpenCompass](https://github.com/open-compass/opencompass)的模型评估方案，更多细节将会更新在OpenCompass的文档中。
+2. **模型评估**: 我们提供基于[OpenCompass](https://github.com/open-compass/opencompass)的模型评估方案。
+首先，完成 opencompass 的安装过程后，将解压后的 openfindata_release 文件夹放入 {PATH_TO_OPENCOMPASS}/data/ 处。
+而后，使用如下命令即可评测 LLaMA-7B 模型在 OpenFinData 数据集上的性能
+```
+python run.py --models hf_llama_7b --datasets OpenFinData_gen
+```
+更多细节更新在OpenCompass的[文档](https://github.com/open-compass/opencompass/blob/main/configs/datasets/OpenFinData/OpenFinData.md)中。
 
 ## 致谢
 
